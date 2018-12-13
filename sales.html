@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+
+<head>
+	<meta charset = "UTF-8">
+        <meta name = description content="FREEDOM Sailing | All sort of boats are our business">
+	<meta name = "keywords" content= "HTML, CSS, XML, JavaScript">
+	<meta name="author" content ="Tatiana Carrillo">
+	<title> Freedom Sailing </title>
+
+    <!--reset file-->
+	<link type="text/css" rel="stylesheet" href="css/reset.css" >
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<!--css files-->
+	<link type="text/css" rel="stylesheet" href="sss/sss.css">
+	<link type="text/css" rel="stylesheet" href="css/master.css">
+	
+	<!--Script-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="sss/sss.js"></script>
+	<script>jQuery(function($) {$('.slider-testimonial').sss();});</script>
+	
+</head>
+
+<body>
+<!--LOGO at header-->
+<div class="header">
+	<div class="logo">
+	<a href="index.html"><img src="images/Logo_web.png" alt="logo"/></a>
+	</div>
+<div class="socialmedia">
+		<ul>
+			<li><a href="https://gmail.com"><i class="far fa-envelope"></i></a></li>
+			<li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+		</ul>
+	
+	</div>
+</div>	
+	
+<!--Menubar-->
+<div class=menu>
+		<ul>
+			<li ><a href="index.html">Home</a></li>
+			<li><a href="index.html">About Us</a></li>
+			<li><a href="rentalsPage.html">Rentals</a></li>
+			<li><a href="sales.html" style="border-bottom:3px solid #FFBD29; color:#FFBD29; padding-bottom:3px">Sales </a></li>
+			<li><a href="repairs.html">Services</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+
+
+<!--Search Bar-->
+
+<div class="wrapperSales">
+<div class="search">
+<form>
+<p>New / Used</p>
+<ul>
+	<li><button class="btn">All</button></li>
+	<li><button class="btn">New</button></li>
+	<li><button class="btn">Used</button></li>
+</ul>
+
+<p>Boat Type</p> 
+<ul>
+	<li><button class="btn">All</button></li>
+	<li><button class="btn">Power</button></li>
+	<li><button class="btn">Sail</button></li>
+	</ul>
+
+<p>Length <input type="radio" name="ft" value="feet" > Foot<input type="radio" name="mt" value="meter"> Meter<br> </p>
+<input type="number" name="length1" > to <input type="number" name="length2" >
+
+<p>Year</p>
+<input type="number" name="year1" min="1930"> to <input type="number" name="year2" max="9999">
+
+<p>Price  <i class="fas fa-euro-sign"></i></p>
+<input type="number" name="price1"> to <input type="number" name="price2">
+<br>
+<button type="submit"><i class="fa fa-search"></i>       Search</button>
+</form>
+</div>
+
+<!--DisplayResults-->
+<div class="results">
+<h1>Featured Boats for Sale</h1>
+
+<div class="gallery">
+
+<div class="boatsphoto">
+    <img src="images/boat1.jpg" alt="boatname1" >
+    <div class="photodescription">
+    <p id="name">New Fish</p>
+	<p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+    </div>
+</div>
+
+<div class="boatsphoto">
+    <img src="images/boat2.jpg" alt="boatname1" >
+    <div class="photodescription">
+        <p id="name">Brooks' Bay</p>
+		<p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+    </div>
+</div>
+
+<div class="boatsphoto">
+    <img src="images/boat3.jpg" alt="boatname1" >
+     <div class="photodescription">
+        <p id="name">Suds on the Roof</p>
+        <p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+      </div>    
+</div>
+
+<div class="boatsphoto">
+    <img src="images/boat4.jpg" alt="boatname1">
+    <div class="photodescription">
+        <p id="name">Redemption Rower</p>
+		 <p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+		 
+    </div>
+</div>
+    
+<div class="boatsphoto">
+    <img src="images/boat5.jpg" alt="boatname1" >
+    <div class="photodescription">
+        <p id="name">Hope Springs</p>
+       <p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+    </div>
+</div>
+<div class="boatsphoto">
+    <img src="images/boat6.jpg" alt="boatname1" >
+    <div class="photodescription">
+    <p id="name">Raquel's Way</p>
+    <p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+</div>
+</div>
+    
+<div class="boatsphoto">
+     <img src="images/boat77.jpg" alt="boatname1" >
+     <div class="photodescription">
+    <p id="name">Roll Call Spirit</p>
+     <p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+    </div>
+</div>
+    
+ <div class="boatsphoto">
+    <img src="images/boat88.jpg" alt="boatname1" >
+    <div class="photodescription">
+    <p id="name">Get Busy Living</p>
+    <p><i class="fas fa-dollar-sign"></i> 3,300,000</p>
+    </div>
+</div>
+        
+<div class="boatsphoto">
+    <img src="images/boat99.jpg" alt="boatname1" >
+    <div class="photodescription">
+        <p id="name">Heywood</p>
+         <p><i class="fas fa-euro-sign"></i> 3,300,000</p>
+    </div>
+     </div>
+<div class="boatsphoto">
+    <img src="images/boat1010.jpg" alt="boatname1" >
+    <div class="photodescription">
+        <p id="name">Monte Cristo</p>
+       <p><i class="fas fa-euro-sign"></i> 3,300,000</p>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<!--BottomBar-->
+
+<div class="bottommenu">
+	<div class=bottomleft>
+	<a href="index.html"><img src="images/Logo_web.png" alt="logo" style=" width:160px; height:60px"/></a>
+	<p><i class="far fa-envelope"></i><a href="mailto:freedomsailing@email.com"> freedomsailing@email.com</a></p>
+	<p><i class="fas fa-phone"></i> 708 666 6578</p>
+	</div>
+
+	<div class=bottomcenter>
+		<h3>Navigation</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">About Us</a></li>
+			<li><a href="rentalsPage.html">Rentals</a></li>
+			<li><a href="sales.html">Sales</a></li>
+			<li><a href="repairs.html">Services</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+
+	<div class=bottomright>
+		<h3>Newsletter</h3> 
+		<p> Subscribe to our email list</p>
+		
+		<div class="newsletter-submit">
+		<input type="email" placeholder="Enter your email here" /><br/>
+		<button>Subscribe Now</button>
+			</div>
+		</div>
+</div>
+
+<!--Footer-->
+<div class=footer>
+	<p>&copy; Freedom Sailing | Tatiana CM Designs 2018</p>
+</div>
+
+</body>
+
+</html>

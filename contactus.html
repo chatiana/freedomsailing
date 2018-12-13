@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+
+<head>
+	<meta charset = "UTF-8">
+        <meta name = description content="FREEDOM Sailing | All sort of boats are our business">
+	<meta name = "keywords" content= "HTML, CSS, XML, JavaScript">
+	<meta name="author" content ="Tatiana Carrillo">
+	<title> Freedom Sailing </title>
+
+    <!--reset file-->
+	<link type="text/css" rel="stylesheet" href="css/reset.css" >
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<!--css files-->
+	<link type="text/css" rel="stylesheet" href="css/master.css">
+	
+	<!--Script-->
+
+	
+</head>
+
+<body>
+<!--LOGO at header-->
+<div class="header">
+	<div class="logo">
+	<a href="index.html"><img src="images/Logo_web.png" alt="logo"/></a>
+	</div>
+<div class="socialmedia">
+		<ul>
+			<li><a href="https://gmail.com"><i class="far fa-envelope"></i></a></li>
+			<li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+		</ul>
+	
+	</div>
+</div>	
+	
+<!--Menubar-->
+<div class=menu>
+		<ul>
+			<li ><a href="index.html">Home</a></li>
+			<li><a href="index.html">About Us</a></li>
+			<li><a href="rentalsPage.html">Rentals</a></li>
+			<li><a href="sales.html">Sales</a></li>
+			<li><a href="repairs.html">Services</a></li>
+			<li><a href="contactus.html" style="border-bottom:3px solid #FFBD29; color:#FFBD29; padding-bottom:3px"> Contact Us</a></li>
+		</ul>
+	</div>
+
+
+    <!--Contact us-->
+
+<div class="contactarea">
+	
+	<div class="contacttitle">	
+	<h2>Contact Us</h2>
+	</div>
+
+	<div class="container">
+<!--|___ContactForm-->
+	
+	<div class=contactform>
+			<div class=contacttext>
+				<p id="touch">Get in touch </p>
+				<p id="touchtext">Fill the form below, and we will get back to you withing 24 hours.</p>
+			</div>
+			
+        <form id=userform>
+		<p>Name<br>
+		<input type="text" name="name"></p>
+		<p>Phone<br>
+		<input type="tel" name="phone"></p>
+		<p>Email<br>
+		<input type="email" name="email" required></p>
+		<p>Your Interest</p>
+		<input type="checkbox" name="option" value="Buying"> Buying<br> 
+		<input type="checkbox" name="option" value="Renting"> Renting<br>
+		<input type="checkbox" name="option" value="Repair"> Repairs<br>
+		<input type="checkbox" name="option" value="Other"> Other<br>
+		<p>Your Message<br>
+		<textarea name="comment" rows="8" cols="50"></textarea></p>
+		
+		<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+		
+	    </form>
+	</div>
+			
+		
+	
+<!--|___GoogleMap-->
+
+	<div class="findus">
+			<div class=contacttext>
+					<p id="findus">Find Us</p>
+					<p id="address">14 Marina Park, Zihuatanejo, Mexico</p>
+			</div>	
+		<div class="mapouter">
+			<div class="gmap_canvas">
+				<iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=muelle%20zihuatanejo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+				</iframe>
+				<a href="https://www.pureblack.de/webdesign-regensburg/"></a>
+			</div>
+			<style>
+			.mapouter{text-align:right;height:400px;width:400px;}
+			.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}
+			</style>
+	</div>
+		
+	</div>
+    </div>
+</div>
+	
+
+
+
+
+<!--BottomBar-->
+
+<div class="bottommenu">
+	<div class=bottomleft>
+	<a href="index.html"><img src="images/Logo_web.png" alt="logo" style=" width:160px; height:60px"/></a>
+	<p><i class="far fa-envelope"></i><a href="mailto:freedomsailing@email.com"> freedomsailing@email.com</a></p>
+	<p><i class="fas fa-phone"></i> 708 666 6578</p>
+	</div>
+
+	<div class=bottomcenter>
+		<h3>Navigation</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#aboutus">About Us</a></li>
+			<li><a href="rentalsPage.html">Rentals</a></li>
+			<li><a href="sales.html">Sales</a></li>
+			<li><a href="repairs.html">Services</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+
+	<div class=bottomright>
+		<h3>Newsletter</h3> 
+		<p> Subscribe to our email list</p>
+		
+		<div class="newsletter-submit">
+		<input type="email" placeholder="Enter your email here" /><br/>
+		<button>Subscribe Now</button>
+			</div>
+		</div>
+</div>
+
+<!--Footer-->
+<div class=footer>
+	<p>&copy; Freedom Sailing | Tatiana CM Designs 2018</p>
+</div>
+
+</body>
+
+</html>
