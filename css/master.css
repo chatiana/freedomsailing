@@ -446,12 +446,24 @@ a:hover {
     padding-bottom:20px;
     padding-top:20px;
 }
+.rinfo{
+    cursor: pointer;
+    padding: 5px;
+}
+
 
 .gallery{
     display:flex;
     flex-wrap:wrap;
     margin: -1rem -1rem;
 }
+.boatsphoto{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
 .boatsphoto img{
  display: block;
  width: 100%;
@@ -460,13 +472,6 @@ a:hover {
  transition: transform 400s ease-out;
 }
 
-
-.boatsphoto{
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-}
 .photodescription{
     text-align: left;
     padding: 10px;
